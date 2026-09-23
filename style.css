@@ -1,0 +1,39 @@
+body {
+    background: pink;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 50px;
+    margin: 10px;
+    text-align: left;
+}
+
+.information {
+    text-align: left;
+    width: 350px;
+    height: 200px;
+    padding: 20px 20px;
+    margin: 0px 90px;
+    
+
+}
+.btn {
+    background: gray;
+    font-weight: bold;
+    padding: 3px 16px;
+    margin: 10px;
+    font-size: medium;
+}
+
+.reset-btn {
+    background: gray;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin: 10px;
+    font-size: small;
+
+}
+
+input {
+    margin: 5px;
+    padding: 3px;
+}

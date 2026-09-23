@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset class="information">
+            <legend>Personal information</legend>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" name="name" required>
+        <br>
+
+        <label for="last-name">Last Name</label>
+        <input id="last-name" type="text" placeholder="Enter your last name" name="last_name" required>
+        <br>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email" name="email" required>
+        <br>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="password" name="password" required>
+        <br>
+
+        <label for="birth-date">Birth Date</label>
+        <input id="birth-date" type="date" name="birth_date" required>
+
+        <label for="age">Age</label>
+        <input id="age" type="number" min="10" max="100" name="age">
+        <br>
+        
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <option value="tbilisi">Tbilisi</option>
+            <option value="batumi">Batumi</option>
+            <option value="gori">Gori</option>
+            <option value="telavi" disabled>Telavi</option>
+            <option value="kutaisi">Kutaisi</option>
+            <option value="zugdidi">Zugdidi</option>
+            <option value="dusheti" selected>Dusheti</option>
+        </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <legend>Gender</legend>
+        <input id="gender" type="radio" name="gender">
+        <label for="gender">Female</label>
+        <br>
+        <input id="gender" type="radio" name="gender">
+        <label for="gender">Male</label>
+        <br>
+        <input id="gender" type="radio" name="gender">
+        <label for="gender">Other</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <legend>Skills:</legend>
+        <input id="coding" type="checkbox" name="skills" value="coding">
+        <label for="coding">Coding</label>
+        <br>
+        <input id="cybersecurity" type="checkbox" name="skills" value="cybersecurity">
+        <label for="cybersecurity">Cybersecurity</label>
+        <br>
+        <input id="digital_marketing" type="checkbox" name="skills" value="digital_marketing">
+        <label for="digital_marketing">Digital marketing</label>
+        <br>
+        <input id="leadership" type="checkbox" name="skills" value="leadership">
+        <label for="leadership">Leadership</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Bio</legend>
+        <textarea name="bio" id="bio" placeholder="write your short bio"></textarea>
+        </fieldset>
+        <br>
+
+        <label>
+            <input type="checkbox" name="terms" required checked>
+            Agree to the Terms and Conditions
+        </label>
+        <br>
+        <label for="">
+            <input type="checkbox" name="terms" required>
+            Disagree to the Terms and Conditions
+        </label>
+        <br>
+
+        <button type="submit" class="btn">Submit</button>
+        <br>
+        <hr>
+        <button type="reset" class="reset-btn">Reset</button>
+
+
+    </form>
+</body>
+</html>
